@@ -62,6 +62,10 @@ publishDir = "docs"
     name = "linkedin"
     url = "https://linkedin.com/in/voltageek"
 
+  [[params.social]]
+    name = "tiktok"
+    url = "https://tiktok.com/@voltageek"
+
 [menu]
 
   [[menu.main]]
