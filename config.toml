@@ -15,7 +15,7 @@ publishDir = "docs"
   name = "Kwame Nkansah"
 
 [outputs]
-  section = ["JSON", "HTML"]
+  section = ["HTML"]
 
 [params]
   dateform        = "Jan 2, 2006"

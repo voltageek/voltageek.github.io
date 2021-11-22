@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main  # Set a branch to deploy
-  pull_request:
 
 jobs:
   deploy:
@@ -29,4 +28,5 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: main
           publish_dir: ./public
